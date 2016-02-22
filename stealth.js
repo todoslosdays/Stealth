@@ -8,6 +8,9 @@ $(document).ready(function(){
       $('[data-testid="ufi_comment_like_link"]').remove();
       //deletes the comment button on facebook
       $('[class="comment_link _5yxe"]').remove();
+      //deletes the share button on facebook
+      $('[<span>Compartir</span>]').remove();
+      $('[class="UFIShareLinkSpinner _1wfk img _55ym _55yn _55yo _5tqs"]').remove();
       //deletes the retweet button for twitter
       $('[id="retweet-tweet-dialog"]').remove();
       $('[class="RetweetDialog modal-container"]').remove();
