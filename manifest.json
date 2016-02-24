@@ -20,6 +20,8 @@
     "http://www.tumblr.com/",
     "https://www.linkedin.com/",
     "http://www.linkedin.com/",
+    "https://www.github.com/",
+    "http://www.github.com/"
 
   ],
 
@@ -29,7 +31,8 @@
       "http://www.twitter.com/*","https://www.twitter.com/*",
 	  "http://www.instagram.com/*", "https://www.instagram.com/*",
 	  "http://www.tumblr.com/*", "https://www.tumblr.com/*",
-	  "http://www.linkedin.com/*", "https://www.linkedin.com/*"],
+	  "http://www.linkedin.com/*", "https://www.linkedin.com/*",
+    "http://www.github.com/*", "https://www.github.com/*"],
 
       "js": ["jquery-2.2.0.min.js", "stealth.js"]
     }

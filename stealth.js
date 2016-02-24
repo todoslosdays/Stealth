@@ -45,6 +45,8 @@ $(document).ready(function(){
 	  //removes the reblog button from tumblr
 	  $('[class="radar_button reblog reblog_button "]').remove();
 	  $('[title="Reblog"]').remove();
+	  //REMOVES THE "PAGE HEAD ACTIONS" ON GITHUB >:)
+	  $('[class="pagehead-actions"]').remove();
     });
   });
 });
