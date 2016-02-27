@@ -11,12 +11,14 @@ $(document).ready(function(){
       //deletes the share button on facebook
       $('[<span>Compartir</span>]').remove();
       $('[class="UFIShareLinkSpinner _1wfk img _55ym _55yn _55yo _5tqs"]').remove();
+      //DELETES THE REACTIONS FROM FACEBOOK 
+      $('[class="_sa_ _5vsi _ca7"]').remove();
       //deletes the retweet button for twitter
       $('[id="retweet-tweet-dialog"]').remove();
       $('[class="RetweetDialog modal-container"]').remove();
       $('[class="close-modal-background-target"]').remove();
       $('[data-original-title="Like"]').remove();
-      //deletes the heart icon
+      //deletes the heart icon from instagram
       $('[class="HeartAnimationContainer"]').remove();
       $('[class="HeartAnimation"]').remove();
       //removes the reply button
@@ -31,23 +33,24 @@ $(document).ready(function(){
   	  $('[data-liked="true"]').remove();
   	  $('[data-block="like"]').remove();
   	  $('[data-like-url]').remove();
-	  $('[data-like-data]').remove();
-	  $('[data-trk="unlike"]').remove();
-	  //removes the comment button for linkedin
-	  $('[button class="comment"]').remove();
-	  $('[data-block="comment"]').remove();
-	  $('[data-trk="comment"]').remove();
-	  $('[<span aria-hidden="true">Comment</span>').remove();
-	  //removes like button from tumblr
-	  $('[class="post_control post-control-icon like"]').remove();
-	  $('[title="Like"]').remove();
-	  $('[data-subview="like"]').remove();
-	  //removes the reblog button from tumblr
-	  $('[class="radar_button reblog reblog_button "]').remove();
-	  $('[title="Reblog"]').remove();
-	  //REMOVES THE "PAGE HEAD ACTIONS" ON GITHUB >:)
-	  $('[class="pagehead-actions"]').remove();
-    });
+  	  $('[data-like-data]').remove();
+  	  $('[data-trk="unlike"]').remove();
+  	  //removes the comment button for linkedin
+  	  $('[button class="comment"]').remove();
+  	  $('[data-block="comment"]').remove();
+  	  $('[data-trk="comment"]').remove();
+  	  $('[<span aria-hidden="true">Comment</span>').remove();
+  	  //removes like button from tumblr
+  	  $('[class="post_control post-control-icon like"]').remove();
+  	  $('[title="Like"]').remove();
+  	  $('[data-subview="like"]').remove();
+  	  //removes the reblog button from tumblr
+  	  $('[class="radar_button reblog reblog_button "]').remove();
+  	  $('[title="Reblog"]').remove();
+  	  //REMOVES THE "PAGE HEAD ACTIONS" ON GITHUB >:)
+  	  $('[class="pagehead-actions"]').remove();
+
+     });
   });
 });
 //$('[]').remove();
