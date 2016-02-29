@@ -3,10 +3,15 @@
 
   "name": "Stealth Mode",
   "description": "Removes like buttons and comment buttons from social media websites.",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "icons": {
     "128": "stealth.png"
+  },
+
+  "browser_action":{
+    "default_icon": "stealth.png",
+    "default_title": "Stealth Mode"
   },
 
   "permissions": [
@@ -37,9 +42,3 @@
       "js": ["jquery-2.2.0.min.js", "stealth.js"]
     }
   ],
-
-  "page_action": {
-    "default_title": "Stealth",
-    "default_icon": "stealth.png"
-  }
-}
