@@ -1,4 +1,4 @@
-// deletes like button as user scrolls through facebook
+// deletes like button among other buttons
 $(document).ready(function(){
   $(window).scroll(function(){
     $('a').each(function(){
