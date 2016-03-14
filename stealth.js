@@ -1,5 +1,6 @@
 //you already know
 // deletes like button among other buttons
+//GG
 $(document).ready(function(){
   $(window).scroll(function(){
     $('a').each(function(){
