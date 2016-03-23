@@ -1,6 +1,7 @@
 //you already know
 // deletes like button among other buttons
 //GG
+//author @todoslosdays
 $(document).ready(function(){
   $(window).scroll(function(){
     $('a').each(function(){
